@@ -1,0 +1,21 @@
+{
+  "name": "landkit/php8-functions",
+  "type": "library",
+  "homepage": "https://github.com/landkit/php8-functions",
+  "authors": [
+    {
+      "name": "Land Kit",
+      "email": "landkit.packages@gmail.com",
+      "homepage": "https://github.com/landkit"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/Functions.php"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-mbstring": "*"
+  }
+}

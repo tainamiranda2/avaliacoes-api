@@ -1,0 +1,171 @@
+{
+    "packages": [
+        {
+            "name": "landkit/php8-dotenv",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/landkit/php8-dotenv.git",
+                "reference": "059774f84c1fef2f8019cdcfd6ae7366417d75b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/landkit/php8-dotenv/zipball/059774f84c1fef2f8019cdcfd6ae7366417d75b1",
+                "reference": "059774f84c1fef2f8019cdcfd6ae7366417d75b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "time": "2022-07-21T07:15:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LandKit\\DotEnv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Land Kit",
+                    "email": "landkit.packages@gmail.com",
+                    "homepage": "https://github.com/landkit"
+                }
+            ],
+            "homepage": "https://github.com/landkit/php8-dotenv",
+            "support": {
+                "issues": "https://github.com/landkit/php8-dotenv/issues",
+                "source": "https://github.com/landkit/php8-dotenv/tree/1.0.0"
+            },
+            "install-path": "../landkit/php8-dotenv"
+        },
+        {
+            "name": "landkit/php8-functions",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/landkit/php8-functions.git",
+                "reference": "849abab47b840e0bc24bcce7ef2580719b6f2639"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/landkit/php8-functions/zipball/849abab47b840e0bc24bcce7ef2580719b6f2639",
+                "reference": "849abab47b840e0bc24bcce7ef2580719b6f2639",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^8.1"
+            },
+            "time": "2022-07-21T21:35:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Land Kit",
+                    "email": "landkit.packages@gmail.com",
+                    "homepage": "https://github.com/landkit"
+                }
+            ],
+            "homepage": "https://github.com/landkit/php8-functions",
+            "support": {
+                "issues": "https://github.com/landkit/php8-functions/issues",
+                "source": "https://github.com/landkit/php8-functions/tree/1.2.0"
+            },
+            "install-path": "../landkit/php8-functions"
+        },
+        {
+            "name": "landkit/php8-model",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/landkit/php8-model.git",
+                "reference": "30daae0119606ce9dc547fcfd51cc676089402be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/landkit/php8-model/zipball/30daae0119606ce9dc547fcfd51cc676089402be",
+                "reference": "30daae0119606ce9dc547fcfd51cc676089402be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*"
+            },
+            "time": "2022-07-19T22:37:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LandKit\\Model\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Land Kit",
+                    "email": "landkit.packages@gmail.com",
+                    "homepage": "https://github.com/landkit"
+                }
+            ],
+            "homepage": "https://github.com/landkit/php8-model",
+            "support": {
+                "issues": "https://github.com/landkit/php8-model/issues",
+                "source": "https://github.com/landkit/php8-model/tree/1.0.0"
+            },
+            "install-path": "../landkit/php8-model"
+        },
+        {
+            "name": "landkit/php8-route",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/landkit/php8-route.git",
+                "reference": "47b4465cea99339b5b33e58d042eb07f903eb3d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/landkit/php8-route/zipball/47b4465cea99339b5b33e58d042eb07f903eb3d0",
+                "reference": "47b4465cea99339b5b33e58d042eb07f903eb3d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "time": "2022-07-22T22:23:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LandKit\\Route\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Land Kit",
+                    "email": "landkit.packages@gmail.com",
+                    "homepage": "https://github.com/landkit"
+                }
+            ],
+            "homepage": "https://github.com/landkit/php8-route",
+            "support": {
+                "issues": "https://github.com/landkit/php8-route/issues",
+                "source": "https://github.com/landkit/php8-route/tree/1.1.0"
+            },
+            "install-path": "../landkit/php8-route"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,26 @@
+{
+    "name": "tainamiranda2/avaliacao",
+    "type": "project",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Tainamiranda2",
+            "email": "tainamirandaferreira@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "landkit/php8-route": "^1.1",
+        "landkit/php8-model": "^1.0",
+        "landkit/php8-dotenv": "^1.0",
+        "landkit/php8-functions": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\":"src/"
+        },
+        "files": [
+            "src/Boot/Config.php"
+        ]
+    }
+}

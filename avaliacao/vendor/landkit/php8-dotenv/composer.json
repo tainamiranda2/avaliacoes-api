@@ -1,0 +1,20 @@
+{
+  "name": "landkit/php8-dotenv",
+  "type": "library",
+  "homepage": "https://github.com/landkit/php8-dotenv",
+  "authors": [
+    {
+      "name": "Land Kit",
+      "email": "landkit.packages@gmail.com",
+      "homepage": "https://github.com/landkit"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LandKit\\DotEnv\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  }
+}

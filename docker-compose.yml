@@ -1,0 +1,29 @@
+version: "2"
+
+services:
+  avaliacao:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PHP_VERSION: ${PHP_VERSION}
+    image:  avaliacao
+    container_name:  avaliacao
+    restart: always
+    volumes:
+      - "./usr/local/etc/php/php.ini-${PHP_INI}:${PHP_INI_DIR}/php.ini"
+      - "${APP_DIR}:/var/www/html"
+    networks:
+      - venus
+    environment:
+      VIRTUAL_HOST: ${VIRTUAL_HOST}
+      VIRTUAL_PORT: ${VIRTUAL_PORT}
+      LETSENCRYPT_HOST: ${VIRTUAL_HOST}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
+      TZ: ${TIMEZONE}
+    command: >
+      bash -c "php /usr/local/bin/composer install --no-interaction
+      && apache2-foreground"
+networks:
+  venus:
+    external: true
